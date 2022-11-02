@@ -12,7 +12,7 @@ namespace Dapper_Connection_Sample
         {
             using (SqlConnection connection = new SqlConnection())
             {
-                connection.ConnectionString = "Server=DESKTOP-IK51R9P\\SQLEXPRESS;Database=CoreBlogDb;User Id=ozbeytullah;Password=123456;";
+                connection.ConnectionString = "Server=DESKTOP-IK51R9P\\SQLEXPRESS;Database=CoreBlogDb;User Id=ozbeytullah;Password=1;";
                 connection.Open();
 
                 Console.WriteLine($"Connection State : {connection.State}");
